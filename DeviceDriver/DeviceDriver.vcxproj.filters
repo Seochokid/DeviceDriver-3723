@@ -27,12 +27,18 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="device_driver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="flash_memory_device.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
