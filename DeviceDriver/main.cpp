@@ -116,6 +116,7 @@ TEST_F(ApplicationFixture, ReadAndPrintSuccess) {
 
 TEST_F(ApplicationFixture, WriteAllCallSuccessWithWrite5Times) {
 	EXPECT_CALL(MockHardware, read(_))
+		.Times(5)
 		.WillRepeatedly(Return(0xFF));
 
 	EXPECT_CALL(MockHardware, write(_, _))
