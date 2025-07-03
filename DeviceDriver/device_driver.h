@@ -10,4 +10,5 @@ public:
 
 protected:
     FlashMemoryDevice* m_hardware;
+    const int TEST_TRY_COUNT = 5;
 };
